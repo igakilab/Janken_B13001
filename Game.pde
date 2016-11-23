@@ -1,9 +1,3 @@
-class Game {
-int win=0;
-int draw=0;
-int lose=0;
-String getJankenResult(String hand) {
- String cpuHand = this.desideCpuHand();
 
  if (hand.equals("Gu") && cpuHand.equals("Gu") 
    || hand.equals("Choki") && cpuHand.equals("Choki") 
